@@ -2,8 +2,7 @@ import { BlobServiceClient } from '@azure/storage-blob';
 import fs from 'fs';
 import path from 'path';
 
-const connectionString = "DefaultEndpointsProtocol=https;AccountName=verceltest;AccountKey=+Se/hYjcgxRH+we/6or4NlyeeW2mZkjh+kWtWYCCHy0Abp0FmZZ35YcA88ED+ZfYFJ0sdcANW/3r+AStSczAPA==;EndpointSuffix=core.windows.net"; // Azure Blob Storage connection string
-const blobServiceClient = BlobServiceClient.fromConnectionString(connectionString);
+const connectionString = ""
 
 export async function downloadAzureBlobFolder(containerName: string, prefix: string) {
     // Get a reference to the container client
