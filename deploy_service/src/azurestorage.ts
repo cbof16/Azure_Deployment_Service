@@ -9,7 +9,7 @@ import path from 'path';
 dotenv.config();
 
 // Retrieve the Azure Storage connection string from environment variables
-const AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=verceltest;AccountKey=+Se/hYjcgxRH+we/6or4NlyeeW2mZkjh+kWtWYCCHy0Abp0FmZZ35YcA88ED+ZfYFJ0sdcANW/3r+AStSczAPA==;EndpointSuffix=core.windows.net";
+const AZURE_STORAGE_CONNECTION_STRING = "";
 
 
 // Create an instance of BlobServiceClient using the connection string
